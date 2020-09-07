@@ -1,0 +1,54 @@
+import static org.junit.Assert.*;
+import org.junit.After;
+import org.junit.Assert;
+import org.junit.Before;
+import org.junit.Test;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class JunitEx {
+	WebDriver driver = null;
+	@Before
+	public void setup() {
+		System.setProperty("webdriver.chrome.driver" , "E:\\tycs\\stqa prac\\prac3\\chromedriver_win32\\chromedriver.exe" );
+		driver = new ChromeDriver();
+		driver.manage().window().maximize();
+	}
+	
+	@Test
+	public void test() throws InterruptedException {
+		
+		driver.get("http://thedemosite.co.uk/savedata.php");
+		driver.findElement(By.xpath("//input[@name='username']")).sendKeys("krunal71");
+		Thread.sleep(1000);
+		driver.findElement(By.xpath("//input[@name='password']")).sendKeys("kd713");
+		Thread.sleep(1000);
+		driver.findElement(By.xpath("//input[@name='FormsButton2']")).click();
+		Thread.sleep(1000);
+		Thread.sleep(2000);
+		Assert.assertTrue("invalid credential" , driver.getTitle().contains("Add a user - FREE PHP code and SQL"));
+		System.out.println(" page title is verified user is able to login ");
+		}
+	
+	@Test
+	public void demotest() throws InterruptedException {
+		
+		driver.get("http://demo.guru99.com/test/newtours/");
+		driver.findElement(By.xpath("//input[@name='userName']")).sendKeys("krunal713");
+		Thread.sleep(1000);
+		driver.findElement(By.xpath("//input[@name='password']")).sendKeys("kd713");
+		Thread.sleep(1000);
+		driver.findElement(By.xpath("//input[@name='submit']")).click();
+		Thread.sleep(1000);
+		Thread.sleep(2000);
+		Assert.assertTrue("invalid credential" , driver.getTitle().contains("Welcome: Mercury Tours"));
+		System.out.println(" page title is verified user is able to login ");
+		}
+	
+	@After
+	public void aftertest(){
+		driver.quit();
+	}
+
+}

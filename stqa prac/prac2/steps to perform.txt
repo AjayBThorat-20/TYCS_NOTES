@@ -1,0 +1,20 @@
+open eclipse
+go to project explorer
+
+right click on JRE SYStem LIbrary
+click on Build path
+configure build path
+
+select Classpath 
+
+then click on ADD External JARs
+
+include all jars from libs folder
++
+client-combined-3.13.0.jar
+client-combined-3.13.0-sources.jar
+selenium-server-standalone-3.14.0.jar
+
+then apply and close
+
+write code and run

@@ -1,0 +1,52 @@
+windows form app
+
+right click o windowsformapp1 -> add -> reference -> browse 3 dll files.
+-----------------------------------------------------------------------------------------
+
+create new project-> window form application -> select .net framework 2.0 ->provide name ->ok
+
+right click on form and click on properties and click on build , select platform target , select x86 ,
+
+go to solution explorer click on project name , select add reference , click on browse and select all 3 dll files.
+
+then go to form 
+using Microsoft.DirectX.direct3D; 
+
+add one more method
+go to properties of form -> events -> click on paint -> event get created -> type Render();
+
+-----------------------------------------------------
+using System.Windows.Forms;
+using Microsoft.DirectX.Direct3D;
+
+namespace WindowsFormsApp1
+{
+    public partial class Form1 : Form
+    {
+        Microsoft.DirectX.Direct3D.Device device;
+        public Form1()
+        {
+            InitializeComponent();
+            InitDevice();
+        }
+
+        private void InitDevice()
+        {
+            PresentParameters pp = new PresentParameters();
+            pp.Windowed = true;
+            pp.SwapEffect = SwapEffect.Discard;
+            device = new Device(0, DeviceType.Hardware, this, CreateFlags.HardwareVertexProcessing , pp);
+
+             
+        }
+        
+        public void Render()
+        {
+            device.Clear(ClearFlags.Target, Color.AntiqueWhite, 0, 1);
+            device.Present();
+        }
+-------------------------------
+
+
+
+

@@ -1,0 +1,57 @@
+package prac2;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Prac2b {
+	
+	static String driverPath = "C:\\\\Users\\\\BlackBot\\\\Desktop\\\\tycs prac\\\\stqa prac\\\\prac2\\\\chromedriver_win32\\\\chromedriver.exe";
+
+	public static void main(String[] args) {
+		
+		System.out.println("hello");
+		String actualTitle , expectedTitle;
+		actualTitle=null;
+		expectedTitle = "welcome page";
+		
+		System.setProperty("webdriver.chrome.driver" , driverPath);
+		WebDriver driver = new ChromeDriver();
+		
+		String baseurl = "C:\\Users\\BlackBot\\Desktop\\tycs prac\\stqa prac\\prac2\\prac2b\\user.html";
+		
+		driver.get(baseurl);
+		driver.findElement(By.name("user")).clear();
+		driver.findElement(By.name("user")).sendKeys("krunal");
+		
+		driver.findElement(By.name("password")).clear();
+		driver.findElement(By.name("password")).sendKeys("713");
+		
+		driver.findElement(By.name("sub")).click();
+		
+		actualTitle = driver.getTitle();
+		
+		if(actualTitle.equals(expectedTitle))
+		{
+			System.out.println("title matching");
+			System.out.println("test case passed successfully");
+			
+		}
+		else
+		{
+			System.out.println("title not matched");
+			System.out.println("test case failed");
+		}
+		
+		try {
+			Thread.sleep(4000);
+			
+		}
+		catch(Exception e)
+		{
+			
+	}
+		driver.close();
+	}
+
+}

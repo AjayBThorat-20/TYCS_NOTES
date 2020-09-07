@@ -1,0 +1,103 @@
+{
+  "id": "0f257055-3cf8-4c29-8914-34574adc0544",
+  "version": "2.0",
+  "name": "practicalno1",
+  "url": "https://login.mailchimp.com/",
+  "tests": [{
+    "id": "3bd887e9-e457-4112-ada8-9f1d9c28daad",
+    "name": "Untitled",
+    "commands": [{
+      "id": "d49e1b85-7422-4457-a602-260821aaecad",
+      "comment": "",
+      "command": "open",
+      "target": "https://login.mailchimp.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e1720e32-46bf-452d-b742-d9ad39c3dc6e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x708",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bbc66aac-31f7-4b38-b3ca-1255fa8620a7",
+      "comment": "",
+      "command": "type",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//form[@id='login-form']/fieldset/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "krunal 713"
+    }, {
+      "id": "909611ac-83ef-487d-a261-c08763a32239",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='login-form']/fieldset/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5e499a48-b84a-4079-b767-f9682d30a93e",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,200)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cbda080e-e901-4fe7-88ff-55568cff3640",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='login-form']/fieldset/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "krunal 713"
+    }, {
+      "id": "862a0003-b01f-47c7-8461-fbfbbfed5187",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button-large",
+      "targets": [
+        ["css=.button-large", "css:finder"],
+        ["xpath=//button[@value='log in']", "xpath:attributes"],
+        ["xpath=//form[@id='login-form']/fieldset/div[5]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "29dd7201-d766-4b48-ad79-bf04d6a38aab",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "79f0cbe7-28d3-42aa-b53a-59a34230c277",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["3bd887e9-e457-4112-ada8-9f1d9c28daad"]
+  }],
+  "urls": ["https://www.udemy.com/", "https://login.mailchimp.com/"],
+  "plugins": []
+}
