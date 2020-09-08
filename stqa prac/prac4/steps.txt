@@ -1,0 +1,29 @@
+help - install new software
+
+http://dl.bintray.com/testng-team/testng-eclipse-release/
+copy url and paste in work with row.
+
+click on add 
+
+write TestNg in Name
+
+press ok wait for download
+
+check on all files
+
+click next
+
+wait for download 
+
+click next
+
+click on windows -> show view -> other ->java ->TestNg  // to check install or not 
+
+create new project -> after that right click new -> other -> TestNG -> next next
+
+add jar file of prac4. one jar file only.
+
+create two file 
+student.xls  -> enter data
+
+output.xls -> blank file

@@ -1,0 +1,62 @@
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import org.testng.annotations.Test;
+import jxl.*;
+import jxl.read.biff.BiffException;
+import jxl.write.*;
+import jxl.write.biff.RowsExceededException;
+import java.io.*;
+
+public class NewTest {
+	
+  @Test
+  public void testImportExcel() throws IOException, BiffException , RowsExceededException , WriteException 
+  {
+	  FileInputStream fi = new FileInputStream("E:\\tycs\\stqa prac\\prac4\\Student.xls");
+	  Workbook w = Workbook.getWorkbook(fi);
+	  Sheet s = w.getSheet(0);
+	  String a[][] = new String[s.getRows()][s.getColumns()];
+	  FileOutputStream fo = new FileOutputStream("E:\\tycs\\stqa prac\\prac4\\Output.xls");
+	  WritableWorkbook wwb = Workbook.createWorkbook(fo);
+	  WritableSheet ws = wwb.createSheet("result", 0);
+	  System.out.println("Performed by krunal 713");
+	  for (int i = 0; i < s.getRows(); i++) 
+	  {
+		  for (int j = 0; j < s.getColumns(); j++) 
+		  {
+			  a[i][j] = s.getCell(j , i).getContents();
+			  Label l2 = new Label(j , i ,a[i][j]);
+			  ws.addCell(l2);
+			  Label l1 = new Label(6 , 0 , "Result");
+			  ws.addCell(l1);
+		  }
+	  }
+	  
+	  for (int i = 1; i < s.getRows(); i++) 
+	  {
+		  for (int j = 2; j < s.getColumns() ; j++) 
+		  {
+			  a[i][j] = s.getCell(j , i).getContents();
+			  int x =Integer.parseInt(a[i][j]);
+			  if(x> 40)
+			  {
+				  Label l1 = new Label(6 , i , "pass");
+				  ws.addCell(l1);
+				  
+			  }
+			  else
+			  {
+				  Label l1 = new Label(6 , i , "fail");
+				  ws.addCell(l1);
+				  break;
+			  }
+			
+		}
+	}
+	  
+	  wwb.write();
+	  wwb.close();
+  }
+}
+
+
