@@ -12,3 +12,10 @@ C:\Users\BlackBot\Desktop\tycs prac\ws prac\prac2\prac2a\prac2a\obj\Debug\prac2a
 C:\Users\BlackBot\Desktop\tycs prac\ws prac\prac2\prac2a\prac2a\obj\Debug\prac2a.csproj.CoreCompileInputs.cache
 C:\Users\BlackBot\Desktop\tycs prac\ws prac\prac2\prac2a\prac2a\obj\Debug\prac2a.dll
 C:\Users\BlackBot\Desktop\tycs prac\ws prac\prac2\prac2a\prac2a\obj\Debug\prac2a.pdb
+E:\tycs\ws prac\prac2\prac2a\prac2a\bin\prac2a.dll.config
+E:\tycs\ws prac\prac2\prac2a\prac2a\bin\prac2a.dll
+E:\tycs\ws prac\prac2\prac2a\prac2a\bin\prac2a.pdb
+E:\tycs\ws prac\prac2\prac2a\prac2a\obj\Debug\prac2a.csprojAssemblyReference.cache
+E:\tycs\ws prac\prac2\prac2a\prac2a\obj\Debug\prac2a.csproj.CoreCompileInputs.cache
+E:\tycs\ws prac\prac2\prac2a\prac2a\obj\Debug\prac2a.dll
+E:\tycs\ws prac\prac2\prac2a\prac2a\obj\Debug\prac2a.pdb
