@@ -1,0 +1,8 @@
+https://graphviz.gitlab.io/_pages/Download/windows/graphviz-2.38.zip
+
+add environment variable for graphviz
+
+download following modules
+pip install sklearn
+pip install ipython
+pip install pydotplus
