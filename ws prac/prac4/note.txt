@@ -1,0 +1,6 @@
+https://www.youtube.com/watch?v=gZG4Lomy-lE&feature=youtu.be&ab_channel=AnuragKurmi
+
+https://www.c-sharpcorner.com/UploadFile/0c1bb2/ajax-enabled-wcf-service/
+
+dont run service 
+dont copy script and form directly it might not run

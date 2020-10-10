@@ -1,0 +1,51 @@
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import org.testng.annotations.Test;
+import jxl.Sheet;
+import jxl.Workbook;
+import jxl.read.biff.BiffException;
+import jxl.write.Label;
+import jxl.write.WritableSheet;
+import jxl.write.WritableWorkbook;
+import jxl.write.WriteException;
+import jxl.write.biff.RowsExceededException;
+
+public class NewTest {
+  @Test
+  	public void ProductImport() throws  IOException , BiffException , RowsExceededException , WriteException{
+	  FileInputStream fi = new FileInputStream("E:\\tycs\\stqa prac\\prac5\\product.xls");
+	  Workbook w = Workbook.getWorkbook(fi);
+	  Sheet s = w.getSheet(0);
+      String a[][] = new String[s.getRows()][s.getColumns()];
+	  FileOutputStream fo = new FileOutputStream("E:\\tycs\\stqa prac\\prac5\\productdata.xls ");
+	  WritableWorkbook wwb = Workbook.createWorkbook(fo);
+	  WritableSheet ws = wwb.createSheet("result", 0);
+	  int c=0;
+	  System.out.println("performed by krunal 713");
+	  for (int i = 0; i < s.getRows(); i++) 
+	  {
+		  for (int j = 0; j < s.getColumns(); j++)
+		  {
+			  if(i >= 1)
+			  {
+				  String b= new String();
+				  b = s.getCell(2,i).getContents();
+				  int x= Integer.parseInt(b);
+				  if( x < 10000)
+				  {
+					  c++;
+					  break;
+				  }
+			   }
+			   a[i][j] = s.getCell(j, i).getContents();
+			   Label l2 = new Label(j, i-c, a[i][j]);
+			   ws.addCell(l2);
+		   } 
+	   }
+	   wwb.write();
+	   wwb.close();
+	} 
+}
+	  
+  

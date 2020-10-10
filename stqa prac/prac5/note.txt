@@ -1,0 +1,2 @@
+code is same for both part a and part b
+only change fileNames and values

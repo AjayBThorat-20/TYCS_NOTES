@@ -19,7 +19,7 @@ click next
 
 click on windows -> show view -> other ->java ->TestNg  // to check install or not 
 
-create new project -> after that right click new -> other -> TestNG -> next next
+create new project -> after that right click new -> other -> TestNG -> select source as src folder -> next next
 
 add jar file of prac4. one jar file only.
 

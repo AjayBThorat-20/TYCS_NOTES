@@ -1,0 +1,7 @@
+E:\tycs\ws prac\prac2\prac2b\WcfService2\WcfService2\bin\WcfService2.dll.config
+E:\tycs\ws prac\prac2\prac2b\WcfService2\WcfService2\bin\WcfService2.dll
+E:\tycs\ws prac\prac2\prac2b\WcfService2\WcfService2\bin\WcfService2.pdb
+E:\tycs\ws prac\prac2\prac2b\WcfService2\WcfService2\obj\x86\Debug\WcfService2.csprojAssemblyReference.cache
+E:\tycs\ws prac\prac2\prac2b\WcfService2\WcfService2\obj\x86\Debug\WcfService2.csproj.CoreCompileInputs.cache
+E:\tycs\ws prac\prac2\prac2b\WcfService2\WcfService2\obj\x86\Debug\WcfService2.dll
+E:\tycs\ws prac\prac2\prac2b\WcfService2\WcfService2\obj\x86\Debug\WcfService2.pdb
