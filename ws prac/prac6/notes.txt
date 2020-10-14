@@ -1,0 +1,15 @@
+.net application - empty - create 
+
+add new item - asmx - 
+ write code in asmx and run
+
+then run it again and click on service description on browser
+ open it and copy wsdl link 
+
+http://localhost:53172/WebService1.asmx?WSDL
+
+use paryana server 
+
+follow doc 
+
+dont check plugins/ framework.. 
