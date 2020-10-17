@@ -1,0 +1,24 @@
+package stqapracccc;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.Select;
+
+import java.util.List;
+
+import org.openqa.selenium.WebElement;
+
+public class Total_pages {
+	static String driverPath="E:\\tycs\\stqa prac\\prac2\\chromedriver_win32\\chromedriver.exe";
+	public static void main(String[] args) {
+		System.setProperty("webdriver.chrome.driver", driverPath);
+		WebDriver driver= new ChromeDriver();
+		driver.get("https://softwaretestingmaterial.com/sample-webpage-to-automate/");
+		Select selectDropdown = new Select(driver.findElement(By.name("dropdown")));
+		List<WebElement> listOptionDropdown = selectDropdown.getOptions();
+		int dropdownCount = listOptionDropdown.size();
+		System.out.println("Total Number of item count in dropdown list = "  + dropdownCount);      
+		driver.close();
+		System.out.println("performed by krunal 713");
+		}
+}

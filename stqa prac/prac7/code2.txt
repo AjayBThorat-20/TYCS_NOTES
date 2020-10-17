@@ -1,0 +1,28 @@
+package stqapracccc;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.Select;
+
+public class Total_pages {
+	static String driverPath="E:\\tycs\\stqa prac\\prac2\\chromedriver_win32\\chromedriver.exe";
+	public static void main(String[] args) throws InterruptedException {		
+		//----PART2A ---------//
+		System.setProperty("webdriver.chrome.driver", driverPath);
+		String baseUrl = "http://demo.guru99.com/test/newtours/register.php";
+		WebDriver driver= new ChromeDriver();
+		driver.get(baseUrl);
+		Select drpCountry = new Select(driver.findElement(By.name("country")));
+		drpCountry.selectByVisibleText("INDIA");
+		Thread.sleep(8000);
+		
+		//----PART2B ---------//
+		driver.get("http://jsbin.com/osebed/2");
+		Select fruits = new Select(driver.findElement(By.id("fruits")));
+		fruits.selectByVisibleText("Banana");	
+		fruits.deselectByIndex(1);
+		Thread.sleep(8000);
+		driver.close();
+		System.out.println("performed by krunal 713");
+		}
+}
