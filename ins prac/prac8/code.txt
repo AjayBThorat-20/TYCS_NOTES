@@ -1,0 +1,31 @@
+package prac9;
+import java.util.Formatter;
+import javax.crypto.*;
+import javax.crypto.spec.SecretKeySpec;
+
+public class HmacSha1 {
+	private static String toHexString(byte[] bytes){
+		Formatter formatter = new Formatter();
+		for(byte b : bytes)
+		{
+			formatter.format("%02x" , b);
+		}
+		return formatter.toString();
+		}
+	
+	public static String calculateHMAC(String data , String key) throws Exception
+	{	
+		SecretKeySpec signingKey = new SecretKeySpec(key.getBytes() , "HmacSHA1");
+		Mac mac = Mac.getInstance("HmacSHA1");
+		mac.init(signingKey);
+		return toHexString(mac.doFinal(data.getBytes()));
+	}
+	
+	public static void main(String[] args) throws Exception
+	{
+		String hmac = calculateHMAC("krunal", "dhavle");
+		System.out.println("HMAC-SHA1 ------------------------------");
+		System.out.println("performed by krunal dhavle 713");
+		System.out.println(hmac);
+	}
+}
