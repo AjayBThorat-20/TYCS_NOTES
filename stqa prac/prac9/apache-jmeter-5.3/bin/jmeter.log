@@ -1,0 +1,22 @@
+2020-11-07 12:56:47,756 INFO o.a.j.u.JMeterUtils: Setting Locale to en_US
+2020-11-07 12:56:47,800 INFO o.a.j.JMeter: Loading user properties from: user.properties
+2020-11-07 12:56:47,814 INFO o.a.j.JMeter: Loading system properties from: system.properties
+2020-11-07 12:56:47,816 INFO o.a.j.JMeter: Copyright (c) 1998-2020 The Apache Software Foundation
+2020-11-07 12:56:47,817 INFO o.a.j.JMeter: Version 5.3
+2020-11-07 12:56:47,817 INFO o.a.j.JMeter: java.version=14.0.2
+2020-11-07 12:56:47,817 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2020-11-07 12:56:47,818 INFO o.a.j.JMeter: os.name=Windows 10
+2020-11-07 12:56:47,818 INFO o.a.j.JMeter: os.arch=amd64
+2020-11-07 12:56:47,818 INFO o.a.j.JMeter: os.version=10.0
+2020-11-07 12:56:47,818 INFO o.a.j.JMeter: file.encoding=Cp1252
+2020-11-07 12:56:47,818 INFO o.a.j.JMeter: java.awt.headless=null
+2020-11-07 12:56:47,818 INFO o.a.j.JMeter: Max memory     =2143289344
+2020-11-07 12:56:47,818 INFO o.a.j.JMeter: Available Processors =4
+2020-11-07 12:56:47,829 INFO o.a.j.JMeter: Default Locale=English (United States)
+2020-11-07 12:56:47,829 INFO o.a.j.JMeter: JMeter  Locale=English (United States)
+2020-11-07 12:56:47,829 INFO o.a.j.JMeter: JMeterHome=E:\tycs\stqa prac\prac9\apache-jmeter-5.3
+2020-11-07 12:56:47,829 INFO o.a.j.JMeter: user.dir  =E:\tycs\stqa prac\prac9\apache-jmeter-5.3\bin
+2020-11-07 12:56:47,830 INFO o.a.j.JMeter: PWD       =E:\tycs\stqa prac\prac9\apache-jmeter-5.3\bin
+2020-11-07 12:56:47,835 INFO o.a.j.JMeter: IP: 192.168.1.2 Name: DESKTOP-8F3RQJO FullName: DESKTOP-8F3RQJO
+2020-11-07 12:56:47,990 INFO o.a.j.JMeter: Setting LAF to: laf:javax.swing.plaf.metal.MetalLookAndFeel
+2020-11-07 12:56:48,177 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
