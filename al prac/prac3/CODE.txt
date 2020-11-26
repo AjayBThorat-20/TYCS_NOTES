@@ -1,8 +1,6 @@
 from simpleai.search import SearchProblem, astar
 
 GOAL = 'KRUNAL DHAVLE'
-
-
 class HelloProblem(SearchProblem):
     def actions(self, state):
         if len(state) < len(GOAL):
@@ -24,6 +22,5 @@ class HelloProblem(SearchProblem):
 
 problem = HelloProblem(initial_state='')
 result = astar(problem)
-
 print(result.state)
 print(result.path())
