@@ -1,16 +1,12 @@
-package prac2;
-
+package pp2;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-
-public class Prac2b {
-	
-	static String driverPath = "C:\\\\Users\\\\BlackBot\\\\Desktop\\\\tycs prac\\\\stqa prac\\\\prac2\\\\chromedriver_win32\\\\chromedriver.exe";
-
-	public static void main(String[] args) {
+public class Pp2b {
+	static String driverPath = "E:\\tycs\\stqa prac\\prac2\\chromedriver_win32\\chromedriver.exe";
+	public static void main(String[] args) throws InterruptedException {
 		
-		System.out.println("hello");
+		 System.out.println("hello");
 		String actualTitle , expectedTitle;
 		actualTitle=null;
 		expectedTitle = "welcome page";
@@ -18,7 +14,7 @@ public class Prac2b {
 		System.setProperty("webdriver.chrome.driver" , driverPath);
 		WebDriver driver = new ChromeDriver();
 		
-		String baseurl = "C:\\Users\\BlackBot\\Desktop\\tycs prac\\stqa prac\\prac2\\prac2b\\user.html";
+		String baseurl = "E:\\tycs\\stqa prac\\prac2\\prac2b\\user.html";
 		
 		driver.get(baseurl);
 		driver.findElement(By.name("user")).clear();
@@ -28,7 +24,7 @@ public class Prac2b {
 		driver.findElement(By.name("password")).sendKeys("713");
 		
 		driver.findElement(By.name("sub")).click();
-		
+		Thread.sleep(4000);
 		actualTitle = driver.getTitle();
 		
 		if(actualTitle.equals(expectedTitle))
@@ -53,5 +49,6 @@ public class Prac2b {
 	}
 		driver.close();
 	}
+
 
 }

@@ -1,0 +1,493 @@
+{
+  "id": "3e2a0f3d-b55d-4399-b98c-74ea34e2f7ec",
+  "version": "2.0",
+  "name": "ppd",
+  "url": "https://www.shopify.in",
+  "tests": [{
+    "id": "284178a3-2c85-46a4-99c4-dddf7f925a49",
+    "name": "ppd1",
+    "commands": [{
+      "id": "65d178cc-57d3-4441-b145-4cc11d780546",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "87cefb7f-8f34-4f44-814c-75eb684d362b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "690x726",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7f99ca5b-a2f4-475c-892f-34ddd95d4298",
+      "comment": "",
+      "command": "type",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//form[@id='login-form']/fieldset/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "fgfg"
+    }, {
+      "id": "d8b4f857-5a5f-405e-a7ab-55a9e7bf0d37",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='login-form']/fieldset/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9130bec3-226e-4f42-9bec-98e1fb3c0269",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='login-form']/fieldset/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "fgfgfgfg"
+    }, {
+      "id": "fc580981-acdb-4661-bcb0-af6a25dfce9d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.c-showPassword",
+      "targets": [
+        ["css=.c-showPassword", "css:finder"],
+        ["xpath=//form[@id='login-form']/fieldset/div[2]/div/label", "xpath:idRelative"],
+        ["xpath=//div[2]/div/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Show')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2a26bcfc-92d3-4a4e-8242-3a2bd7971158",
+      "comment": "",
+      "command": "click",
+      "target": "css=.c-showPassword",
+      "targets": [
+        ["css=.c-showPassword", "css:finder"],
+        ["xpath=//form[@id='login-form']/fieldset/div[2]/div/label", "xpath:idRelative"],
+        ["xpath=//div[2]/div/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Hide')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b4fc3673-d998-4ec7-b4b4-f56164629873",
+      "comment": "",
+      "command": "click",
+      "target": "id=stay-signed-in",
+      "targets": [
+        ["id=stay-signed-in", "id"],
+        ["name=stay-signed-in", "name"],
+        ["css=#stay-signed-in", "css:finder"],
+        ["xpath=//input[@id='stay-signed-in']", "xpath:attributes"],
+        ["xpath=//form[@id='login-form']/fieldset/div[4]/div/label/div/input", "xpath:idRelative"],
+        ["xpath=//label/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2285fddb-ef5f-4085-92e7-b8238b5fe0d0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button-large",
+      "targets": [
+        ["css=.button-large", "css:finder"],
+        ["xpath=//button[@value='log in']", "xpath:attributes"],
+        ["xpath=//form[@id='login-form']/fieldset/div[4]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e7d15bca-509f-4299-b7cb-16f5c97a0386",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='login-form']/fieldset/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d6568e92-f5a7-4b9e-b614-d91373a14d9b",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='login-form']/fieldset/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "asasas"
+    }, {
+      "id": "d3ffa481-2dbf-44da-8fb0-195f8c06fd1b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.c-showPassword",
+      "targets": [
+        ["css=.c-showPassword", "css:finder"],
+        ["xpath=//form[@id='login-form']/fieldset/div[3]/div/label", "xpath:idRelative"],
+        ["xpath=//div[3]/div/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Show')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "57f08896-a627-41aa-955b-fb587947b4ce",
+      "comment": "",
+      "command": "click",
+      "target": "css=.c-showPassword",
+      "targets": [
+        ["css=.c-showPassword", "css:finder"],
+        ["xpath=//form[@id='login-form']/fieldset/div[3]/div/label", "xpath:idRelative"],
+        ["xpath=//div[3]/div/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Hide')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "01bf8780-7b12-4597-b975-935cdae86325",
+      "comment": "",
+      "command": "click",
+      "target": "css=fieldset",
+      "targets": [
+        ["css=fieldset", "css:finder"],
+        ["xpath=//form[@id='login-form']/fieldset", "xpath:idRelative"],
+        ["xpath=//fieldset", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "40abf1e9-3411-4027-bb51-527816900c14",
+    "name": "ppd2",
+    "commands": [{
+      "id": "809f814e-e6c5-422b-bad9-71b706f58349",
+      "comment": "",
+      "command": "open",
+      "target": "/tour/ecommerce-website",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "32ff9507-4a6a-4371-a45d-30b0b71501ae",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "690x726",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8645d2d4-9109-4c72-a019-3f06c69cd066",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,6)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "89560fe2-1169-4dfa-ace8-9b1da927ee79",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,404)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e1dc9b8e-04a3-44b0-8d40-2359ef7454b4",
+      "comment": "",
+      "command": "click",
+      "target": "id=SignupEmail-52ca",
+      "targets": [
+        ["id=SignupEmail-52ca", "id"],
+        ["name=signup[email]", "name"],
+        ["css=#SignupEmail-52ca", "css:finder"],
+        ["xpath=//input[@id='SignupEmail-52ca']", "xpath:attributes"],
+        ["xpath=//main[@id='Main']/section/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a6992962-cbad-4c96-84d2-2c5b3e8be423",
+      "comment": "",
+      "command": "type",
+      "target": "id=SignupEmail-52ca",
+      "targets": [
+        ["id=SignupEmail-52ca", "id"],
+        ["name=signup[email]", "name"],
+        ["css=#SignupEmail-52ca", "css:finder"],
+        ["xpath=//input[@id='SignupEmail-52ca']", "xpath:attributes"],
+        ["xpath=//main[@id='Main']/section/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "asasa dsa"
+    }, {
+      "id": "25386ce8-de46-4a59-aa3b-4e55794481c7",
+      "comment": "",
+      "command": "click",
+      "target": "id=tour_category",
+      "targets": [
+        ["id=tour_category", "id"],
+        ["name=tour[category]", "name"],
+        ["css=#tour_category", "css:finder"],
+        ["xpath=//select[@id='tour_category']", "xpath:attributes"],
+        ["xpath=//main[@id='Main']/section[2]/div/div/div[2]/form/label/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"],
+        ["xpath=//select[contains(.,'Introduction\nDesign your store\nRunning your store\nSecure shopping cart\nEcommerce hosting\nMarketing & SEO\nMobile commerce\nApp Store\nAre you a designer?\nFull feature list')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ced11ab1-5131-420e-a0d2-119660e1ed08",
+      "comment": "",
+      "command": "select",
+      "target": "id=tour_category",
+      "targets": [],
+      "value": "label=Ecommerce hosting"
+    }, {
+      "id": "fef39f9f-196c-482d-8659-5d3b89ec4452",
+      "comment": "",
+      "command": "click",
+      "target": "id=tour_category",
+      "targets": [
+        ["id=tour_category", "id"],
+        ["name=tour[category]", "name"],
+        ["css=#tour_category", "css:finder"],
+        ["xpath=//select[@id='tour_category']", "xpath:attributes"],
+        ["xpath=//main[@id='Main']/section[2]/div/div/div[2]/form/label/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"],
+        ["xpath=//select[contains(.,'Introduction\nDesign your store\nRunning your store\nSecure shopping cart\nEcommerce hosting\nMarketing & SEO\nMobile commerce\nApp Store\nAre you a designer?\nFull feature list')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a960fa5d-c3df-4613-8b81-945f11b8a0a0",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,402)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b1fb67f5-0ee7-4a7d-814a-a7781bdbfe72",
+      "comment": "",
+      "command": "click",
+      "target": "id=tour_category",
+      "targets": [
+        ["id=tour_category", "id"],
+        ["name=tour[category]", "name"],
+        ["css=#tour_category", "css:finder"],
+        ["xpath=//select[@id='tour_category']", "xpath:attributes"],
+        ["xpath=//main[@id='Main']/section[2]/div/div/div[2]/form/label/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"],
+        ["xpath=//select[contains(.,'Introduction\nDesign your store\nRunning your store\nSecure shopping cart\nEcommerce hosting\nMarketing & SEO\nMobile commerce\nApp Store\nAre you a designer?\nFull feature list')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5b56be3d-dc8d-40db-93d9-b48b56926b0a",
+      "comment": "",
+      "command": "select",
+      "target": "id=tour_category",
+      "targets": [],
+      "value": "label=Running your store"
+    }, {
+      "id": "779ef202-a618-4a9c-a4a0-9ebf50f11473",
+      "comment": "",
+      "command": "click",
+      "target": "id=tour_category",
+      "targets": [
+        ["id=tour_category", "id"],
+        ["name=tour[category]", "name"],
+        ["css=#tour_category", "css:finder"],
+        ["xpath=//select[@id='tour_category']", "xpath:attributes"],
+        ["xpath=//main[@id='Main']/section[2]/div/div/div[2]/form/label/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"],
+        ["xpath=//select[contains(.,'Introduction\nDesign your store\nRunning your store\nSecure shopping cart\nEcommerce hosting\nMarketing & SEO\nMobile commerce\nApp Store\nAre you a designer?\nFull feature list')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c620ae22-4d39-4fd0-8c32-e7b28d77b524",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,487)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c95648f9-a50e-4a28-8585-c7c40ec85a3d",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,800)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c3307160-5c5b-4ee0-945b-1a66238bed54",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,3404)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7d54580c-ae8e-42f4-9c23-453fdb495c08",
+      "comment": "",
+      "command": "click",
+      "target": "id=SignupEmail-f7fa",
+      "targets": [
+        ["id=SignupEmail-f7fa", "id"],
+        ["css=#SignupEmail-f7fa", "css:finder"],
+        ["xpath=//input[@id='SignupEmail-f7fa']", "xpath:attributes"],
+        ["xpath=//main[@id='Main']/section[3]/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//section[3]/div/div[2]/form/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "777d3697-2466-4fc0-9d8a-0e90ead7c338",
+      "comment": "",
+      "command": "type",
+      "target": "id=SignupEmail-f7fa",
+      "targets": [
+        ["id=SignupEmail-f7fa", "id"],
+        ["css=#SignupEmail-f7fa", "css:finder"],
+        ["xpath=//input[@id='SignupEmail-f7fa']", "xpath:attributes"],
+        ["xpath=//main[@id='Main']/section[3]/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//section[3]/div/div[2]/form/div/div/input", "xpath:position"]
+      ],
+      "value": "asad sa"
+    }, {
+      "id": "b5905fbe-cb73-4677-b419-b520f51683d2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.js-is-filled .marketing-button",
+      "targets": [
+        ["css=.js-is-filled .marketing-button", "css:finder"],
+        ["xpath=(//button[@name='button'])[18]", "xpath:attributes"],
+        ["xpath=//main[@id='Main']/section[3]/div/div[2]/form/div/div/button", "xpath:idRelative"],
+        ["xpath=//section[3]/div/div[2]/form/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "76d0490f-b24f-4907-aec6-b41dbb4785b8",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6647a278-442a-49d7-9473-4a6a5f5bf646",
+      "comment": "",
+      "command": "click",
+      "target": "id=0_signup_password",
+      "targets": [
+        ["id=0_signup_password", "id"],
+        ["name=signup[password]", "name"],
+        ["css=#\\30_signup_password", "css:finder"],
+        ["xpath=//input[@id='0_signup_password']", "xpath:attributes"],
+        ["xpath=//form[@id='SignupForm_modal']/div[2]/div/label/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d3d368f3-adc3-40af-9920-27fb500d0e12",
+      "comment": "",
+      "command": "type",
+      "target": "id=0_signup_password",
+      "targets": [
+        ["id=0_signup_password", "id"],
+        ["name=signup[password]", "name"],
+        ["css=#\\30_signup_password", "css:finder"],
+        ["xpath=//input[@id='0_signup_password']", "xpath:attributes"],
+        ["xpath=//form[@id='SignupForm_modal']/div[2]/div/label/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/label/input", "xpath:position"]
+      ],
+      "value": "as"
+    }, {
+      "id": "698ba70d-82de-4ce3-a211-5e16810d1acd",
+      "comment": "",
+      "command": "mouseDown",
+      "target": "id=0_signup_shop_name",
+      "targets": [
+        ["id=0_signup_shop_name", "id"],
+        ["name=signup[shop_name]", "name"],
+        ["css=#\\30_signup_shop_name", "css:finder"],
+        ["xpath=//input[@id='0_signup_shop_name']", "xpath:attributes"],
+        ["xpath=//form[@id='SignupForm_modal']/div[3]/div/label/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c46c47d6-8936-402f-9bbd-0d009516b322",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "id=SignupForm_modal",
+      "targets": [
+        ["id=SignupForm_modal", "id"],
+        ["css=#SignupForm_modal", "css:finder"],
+        ["xpath=//form[@id='SignupForm_modal']", "xpath:attributes"],
+        ["xpath=//div[@id='ModalContainer']/div/div[2]/div/div/form", "xpath:idRelative"],
+        ["xpath=//form", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "49da2e6b-dc7f-4191-b5f6-9c0fcf34a2a2",
+      "comment": "",
+      "command": "click",
+      "target": "id=SignupForm_modal",
+      "targets": [
+        ["id=SignupForm_modal", "id"],
+        ["css=#SignupForm_modal", "css:finder"],
+        ["xpath=//form[@id='SignupForm_modal']", "xpath:attributes"],
+        ["xpath=//div[@id='ModalContainer']/div/div[2]/div/div/form", "xpath:idRelative"],
+        ["xpath=//form", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "75a92564-9115-42d9-b717-29616cef2096",
+      "comment": "",
+      "command": "type",
+      "target": "id=0_signup_shop_name",
+      "targets": [
+        ["id=0_signup_shop_name", "id"],
+        ["name=signup[shop_name]", "name"],
+        ["css=#\\30_signup_shop_name", "css:finder"],
+        ["xpath=//input[@id='0_signup_shop_name']", "xpath:attributes"],
+        ["xpath=//form[@id='SignupForm_modal']/div[3]/div/label/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/label/input", "xpath:position"]
+      ],
+      "value": "asdas"
+    }, {
+      "id": "51531ae3-7cbc-4eab-a5bf-e258966ff23d",
+      "comment": "",
+      "command": "click",
+      "target": "name=button",
+      "targets": [
+        ["name=button", "name"],
+        ["css=.marketing-form__button:nth-child(1)", "css:finder"],
+        ["xpath=//button[@name='button']", "xpath:attributes"],
+        ["xpath=//form[@id='SignupForm_modal']/div[5]/button", "xpath:idRelative"],
+        ["xpath=//div[5]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Create your store')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "653c048b-6340-4768-97b4-36b77dbb5e0e",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["284178a3-2c85-46a4-99c4-dddf7f925a49"]
+  }],
+  "urls": ["https://login.mailchimp.com/", "https://www.shopify.in/"],
+  "plugins": []
+}

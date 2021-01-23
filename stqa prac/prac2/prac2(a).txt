@@ -1,12 +1,9 @@
-package prac2;
-
+package pp2;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-
-public class Prac2 {
-
+public class Pp2 {
 	public static void main(String[] args) {
-		System.setProperty("webdriver.chrome.driver","C:\\Users\\BlackBot\\Desktop\\tycs prac\\stqa prac\\prac2\\chromedriver_win32\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","E:\\tycs\\stqa prac\\prac2\\chromedriver_win32\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		
 		String baseurl = "https://google.com/";
@@ -31,5 +28,6 @@ public class Prac2 {
 		
 
 	}
+	
 
 }
